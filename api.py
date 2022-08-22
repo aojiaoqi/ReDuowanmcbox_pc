@@ -1,4 +1,5 @@
 import urllib3.request
+import time
 http = '101.43.48.113'
 def MakeUrl(api):
     return http + '/api/' + api
@@ -9,7 +10,6 @@ def DoT(api):
 def __main__():
     print('ReDuowanmcbox Api Core V1.0')
     print('Using: Dot (api)')
-    for i in range(114514191):
-        pass
+    time.sleep(3)
 if __name__ == "__main__":
     __main__()
